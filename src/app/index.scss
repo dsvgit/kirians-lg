@@ -1,0 +1,19 @@
+@import "theme/colors";
+
+.appBar {
+  font-size: 13px;
+  border-bottom: 5px solid $main !important;
+
+  h1 {
+    font-size: 18px !important;
+    padding-top: 3px !important;
+  }
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+html {
+  background-color: $lightGray;
+}

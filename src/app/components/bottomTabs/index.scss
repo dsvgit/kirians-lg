@@ -1,0 +1,54 @@
+@import "../../theme/colors";
+
+.tabs {
+  position: fixed!important;
+  bottom: 0;
+}
+
+.tab {
+  min-width: 50px !important;
+  width: 120px !important;
+
+  &.active {
+    border-bottom: 5px solid $main !important;
+    background-color: $lightGray !important;
+    box-shadow: inset 0px 2px 8px rgba(0,0,0,0.2);
+  }
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  background: url('../../../img/calculator.png') center no-repeat;
+  background-size: 20px;
+}
+
+.calculatorIcon {
+  background-image: url('../../../img/calculator.png');
+  @extend .icon;
+  &.active { background-image: url('../../../img/calculator_active.png'); }
+}
+
+.docsIcon {
+  background-image: url('../../../img/docs.png');
+  @extend .icon;
+  &.active { background-image: url('../../../img/docs_active.png'); }
+}
+
+.errorIcon {
+  background-image: url('../../../img/error.png');
+  @extend .icon;
+  &.active { background-image: url('../../../img/error_active.png'); }
+}
+
+.refrigerantIcon {
+  background-image: url('../../../img/refrigerant.png');
+  @extend .icon;
+  &.active { background-image: url('../../../img/refrigerant_active.png'); }
+}
+
+.supportIcon {
+  background-image: url('../../../img/support.png');
+  @extend .icon;
+  &.active { background-image: url('../../../img/support_active.png'); }
+}

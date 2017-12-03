@@ -48,8 +48,7 @@ module.exports = {
         loader: 'babel-loader',
         exclude: /node_modules/,
         query: {
-          plugins: ['transform-runtime'],
-          presets: ['es2015', 'stage-3', 'react']
+          presets: ['@babel/preset-env', '@babel/preset-stage-0', '@babel/react']
         }
       },
       {
@@ -67,9 +66,10 @@ module.exports = {
         test: /\.(jpe?g|png|gif)$/i,
         use: [
           {
-            loader: 'html-loader',
+            loader: 'file-loader',
             options: {
-              name: 'assets/[name]-[sha512:hash:base64:7].[ext]'
+              name: '[path][name]-[sha512:hash:base64:7].[ext]',
+              publicPath: '/'
             }
           }
         ]
@@ -78,9 +78,10 @@ module.exports = {
         test: /\.(ttf|eot|svg|woff|woff2)(\?.+)?$/i,
         use: [
           {
-            loader: 'html-loader',
+            loader: 'file-loader',
             options: {
-              name: 'assets/[name].[ext]'
+              name: '[path][name].[ext]',
+              publicPath: '/'
             }
           }
         ]
