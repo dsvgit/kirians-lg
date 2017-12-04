@@ -74,7 +74,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              name: '[path][name]-[sha512:hash:base64:7].[ext]',
+              name: '[path][name].[ext]',
               publicPath: '/'
             }
           }
