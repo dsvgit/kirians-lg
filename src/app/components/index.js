@@ -4,3 +4,4 @@ export Paper from './paper';
 export Slider from './slider';
 export BottomTabs from './bottomTabs/bottomTabs';
 export BottomTab from './bottomTabs/bottomTab';
+export Link from './link';

@@ -1,6 +1,7 @@
 @import "theme/colors";
 
 .appBar {
+  position: fixed!important;
   font-size: 13px;
   border-bottom: 5px solid $main !important;
 

@@ -7,6 +7,6 @@ export default props => {
   const { className } = props;
 
   return (
-  <span className={classnames(className, styles.label)} {...props} />
+  <span {...props} className={classnames(className, styles.label)} />
   );
 }

@@ -4,4 +4,8 @@
   padding: 10px 20px;
   padding-bottom: 56px;
   background-color: $lightGray;
+
+  &.paddingTop {
+    padding-top: 55px;
+  }
 }

@@ -4,9 +4,9 @@ import classnames from 'classnames';
 import styles from './index.scss';
 
 export default props => {
-  const { children, paddingTop = true } = props;
+  const { className } = props;
 
   return (
-    <div className={classnames(styles.layout, paddingTop && styles.paddingTop)}>{children}</div>
+  <span {...props} className={classnames(className, styles.link)} />
   );
 }

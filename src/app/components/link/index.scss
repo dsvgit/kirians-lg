@@ -1,0 +1,8 @@
+@import "src/app/theme/colors";
+
+.link {
+  color: $main;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 400;
+}

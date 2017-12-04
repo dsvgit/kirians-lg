@@ -9,6 +9,6 @@ export default props => {
   const { className } = props;
 
   return (
-    <Paper className={classnames(className, styles.paper)} {...props} />
+    <Paper {...props} className={classnames(className, styles.paper)} />
   );
 }

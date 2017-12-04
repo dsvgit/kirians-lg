@@ -16,7 +16,8 @@ import Fridges from './modules/fridges/components/index';
 import Calculator from './modules/calculator/components/index';
 import Support from './modules/support/components/index';
 import Docs from './modules/docs/components/index';
-import Profile from './modules/profile/components/index';
+import Profile from './modules/user/profile/components/index';
+import Recovery from './modules/user/recovery/components/index';
 
 import history from './history';
 
@@ -30,7 +31,8 @@ const titles = {
   '/fridges': 'Подбор хладогента',
   '/calculator': 'Калькулятор',
   '/support': 'Поддержка',
-  '/docs': 'Документация'
+  '/docs': 'Документация',
+  '/recovery': 'Восстановить пароль'
 };
 
 export default props => {
@@ -59,6 +61,7 @@ export default props => {
         <Route path="/support" component={Support}/>
         <Route path="/docs" component={Docs}/>
         <Route path="/profile" component={Profile}/>
+        <Route path="/recovery" component={Recovery}/>
         <Redirect from="/" to="/error" />
       </Switch>
 
