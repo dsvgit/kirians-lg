@@ -1,7 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export default props => {
-  return (
-  <div>profile</div>
-  );
+import { BaseLayout } from 'src/app/components';
+
+class Module extends Component {
+  render() {
+    return (
+    <BaseLayout>
+      <h2>Авторизация</h2>
+
+    </BaseLayout>
+    );
+  }
 }
+
+export default Module;

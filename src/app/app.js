@@ -8,7 +8,7 @@ import AppBar from 'material-ui/AppBar';
 import IconButton from 'material-ui/IconButton';
 import NavigationArrowBack from 'material-ui/svg-icons/navigation/arrow-back';
 import ActionSettings from 'material-ui/svg-icons/action/settings';
-import BottomTabs from './components/bottomTabs/bottomTabs';
+import { BottomTabs } from 'src/app/components';
 
 import Error from './modules/error/components/index';
 import ErrorSingle from './modules/error/components/single';

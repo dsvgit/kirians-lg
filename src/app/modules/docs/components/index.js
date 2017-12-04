@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export default props => {
-  return (
-  <div>docs</div>
-  );
+class Module extends Component {
+  render() {
+    return (
+    <div>docs</div>
+    );
+  }
 }
+
+export default Module;
