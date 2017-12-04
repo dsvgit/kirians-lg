@@ -1,6 +1,6 @@
 import React from 'react';
 import classnames from 'classnames';
-import history from '../../history';
+import history from 'src/app/history';
 
 import { BottomNavigationItem } from 'material-ui/BottomNavigation';
 

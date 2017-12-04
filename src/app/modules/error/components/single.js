@@ -1,6 +1,6 @@
 import React from 'react';
 
-import BaseLayout from '../../../components/baseLayout';
+import BaseLayout from 'src/app/components/baseLayout';
 import {List, ListItem} from 'material-ui/List';
 import Avatar from 'material-ui/Avatar';
 import Subheader from 'material-ui/Subheader';

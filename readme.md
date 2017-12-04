@@ -1,8 +1,9 @@
-# Webpack 2 simple project
-
+#
+install packages
 ```
 npm i
 ```
+build project
 ```
 npm run dev
 ./build

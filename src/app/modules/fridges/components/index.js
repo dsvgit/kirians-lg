@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import BaseLayout from '../../../components/baseLayout';
-import Slider from '../../../components/slider';
+import BaseLayout from 'src/app/components/baseLayout';
+import Slider from 'src/app/components/slider';
 
 export default class extends Component {
   constructor(props) {

@@ -1,14 +1,14 @@
 import React from 'react';
 
-import Paper from '../../../components/paper';
+import Paper from 'src/app/components/paper';
 import TextField from 'material-ui/TextField';
-import BaseLayout from '../../../components/baseLayout';
+import BaseLayout from 'src/app/components/baseLayout';
 import SelectField from 'material-ui/SelectField';
 import MenuItem from 'material-ui/MenuItem';
-import Label from '../../../components/label';
+import Label from 'src/app/components/label';
 import RaisedButton from 'material-ui/RaisedButton';
 
-import history from '../../../history';
+import history from 'src/app/history';
 
 import styles from './index.scss';
 

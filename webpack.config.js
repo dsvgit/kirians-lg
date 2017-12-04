@@ -1,6 +1,7 @@
 var path = require('path');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
+var homeDir = process.cwd();
 
 const extractSass = new ExtractTextPlugin({
     filename: "[name]/index.[hash].css",
@@ -8,6 +9,11 @@ const extractSass = new ExtractTextPlugin({
 });
 
 module.exports = {
+  resolve: {
+    alias: {
+      'src': path.join(homeDir, 'src')
+    }
+  },
   entry: './src/index.js',
   output: {
     path: path.join(__dirname, 'build'),
