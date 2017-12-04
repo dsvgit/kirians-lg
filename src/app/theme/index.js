@@ -1,5 +1,7 @@
 import colors from './colors';
 
+
+// https://github.com/mui-org/material-ui/blob/master/src/styles/getMuiTheme.js
 export default {
   appBar: {
     color: colors.lightGray,
